@@ -24,7 +24,7 @@
 }
 
 .results {
-	width: 100%;
+	
 	margin-top: 15px;
 	padding: 15px;
 	font-size: 12px;
@@ -32,10 +32,24 @@
 	border: solid 2px yellow;
 }
 
-input#results {
-	width: 100%;
+#results {
+	width: 99%;
+	margin: 0 auto;
+	height: 30px;
 }
 
 input {
 	margin: 0 auto;
+}
+
+#sub_butt {
+	text-align: center;
+	margin: 15px 0;
+}
+
+#submit {
+	width: 200px;
+	font-weight: bold;
+	font-style: helvetica, sans serif;
+	font-size: 18px;
 }
