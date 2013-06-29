@@ -1,5 +1,12 @@
-<div class="results">
-	<% if !@results.nil? || @results != false %>
-		<%= link_to "Download", @results %>
+<% if !@results.nil? %>
+	<% if @results != false %>
+		<div class="results">
+			<%= link_to "Download", @results %>
+		</div>
+	<% else %>
+		<div>Not a valid hiphopdx single link</div>
 	<% end %>
-</div>
+<% end %>
+<%= "#{@results.class} : #{@results}" %>
+<br/>
+<%= @bugger %>
