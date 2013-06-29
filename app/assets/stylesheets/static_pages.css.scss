@@ -1,0 +1,41 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#title {
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 100px;
+	max-width: 600px;
+}
+
+.form {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.results {
+	width: 100%;
+	margin-top: 15px;
+	padding: 15px;
+	font-size: 12px;
+	background-color: beige;
+	border: solid 2px yellow;
+}
+
+input#results {
+	width: 100%;
+}
+
+input {
+	margin: 0 auto;
+}
